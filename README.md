@@ -56,3 +56,10 @@ ranger --revert /path/to/folder
 - **Smart Categorization:** Automatically groups common formats (`.png`, `.jpg` $\rightarrow$ `images/`, `.pdf`, `.docx` $\rightarrow$ `documents/`, etc.).
 - **Dynamic Folder Creation:** Unknown extensions get their own folder (e.g., `.blend` $\rightarrow$ `blend_files/`).
 - **Safe Undo System:** Keeps track of file movements in a temporary `.ranger_undo.json` file so you can safely revert at any time.
+
+## Implementation 
+
+# Before
+![Before ](/src_images/before.png)
+# After
+![After ](/src_images/after.png)
